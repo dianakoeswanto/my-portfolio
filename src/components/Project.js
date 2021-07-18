@@ -10,8 +10,8 @@ const Project = ({project}) => {
                     <h5 className="card-title">{project.name}</h5>
                     <p className="card-text">{project.description}</p>
                     <div className="row justify-content-center">
-                        <a href={project.deployed_url} className="btn btn-primary mr-2">View project</a>
-                        <a href={project.github} className="btn btn-primary">View github</a>
+                        <a href={project.deployed_url} className="btn btn-primary mr-2" target="_blank">View project</a>
+                        <a href={project.github} className="btn btn-primary" target="_blank">View github</a>
                     </div>
                 </div>
             </div>

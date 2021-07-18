@@ -6,10 +6,14 @@ const Contacts = () => {
         <div className="wrapper">
             <h3>Contacts</h3>
             <p>
-                Linkedin: <a href="http://www.linkedin.com/in/diana-koeswanto">https://github.com/dianakoeswanto</a>
+                Linkedin: <a 
+                    href="http://www.linkedin.com/in/diana-koeswanto" 
+                    target="_blank">https://github.com/dianakoeswanto</a>
             </p>
             <p>
-                Github: <a href="https://github.com/dianakoeswanto">https://github.com/dianakoeswanto</a>
+                Github: <a 
+                href="https://github.com/dianakoeswanto"
+                target="_blank">https://github.com/dianakoeswanto</a>
             </p>
         </div>
     )
