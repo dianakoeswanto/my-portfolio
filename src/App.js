@@ -11,7 +11,7 @@ const App = () => {
         <Router>
             <Header />
             <div className="content">
-                <Route exact path="/">
+                <Route exact path="/my-portfolio">
                     <About />
                 </Route>
                 <Route path="/portfolio">
