@@ -14,10 +14,10 @@ const App = () => {
                 <Route exact path="/my-portfolio">
                     <About />
                 </Route>
-                <Route path="/portfolio">
+                <Route path="/my-portfolio/portfolio">
                     <Portfolio />
                 </Route>
-                <Route path="/contacts">
+                <Route path="/my-portfolio/contacts">
                     <Contacts />
                 </Route>
             </div>

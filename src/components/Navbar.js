@@ -14,13 +14,13 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link className="nav-link text-light" to="/portfolio">Portfolio</Link>
+                            <Link className="nav-link text-light" to="/my-portfolio/portfolio">Portfolio</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-light" to="./resume/DK Resume.pdf" target="_blank">Resume</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-light" to="/contacts">Contact Me</Link>
+                            <Link className="nav-link text-light" to="/my-portfolio/contacts">Contact Me</Link>
                         </li>
                     </ul>
                 </div>
